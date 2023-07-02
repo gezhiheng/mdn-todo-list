@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: 'https://gezhiheng.github.io/mdn-todo-list/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
